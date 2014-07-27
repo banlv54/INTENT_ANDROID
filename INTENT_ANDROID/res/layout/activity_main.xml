@@ -51,7 +51,7 @@
         android:layout_alignLeft="@+id/VIEW_CONTACT"
         android:layout_alignRight="@+id/VIEW_CONTACT"
         android:layout_below="@+id/EDIT_CONTACT"
-        android:text="Caulator 2*X" />
+        android:text="Calculator 2*X" />c
 
     <TextView
         android:id="@+id/first_text"

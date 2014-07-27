@@ -41,7 +41,7 @@ public class MainActivity extends ActionBarActivity {
         btnActionViewMap.setOnClickListener(new OnClickListener() {
         	@Override
 		  	public void onClick(View arg0) {
-    			myActivity = new Intent(Intent.ACTION_VIEW,Uri.parse("http://maps.google.com/maps?saddr=20.344,34.34&daddr=20.5666,45.345"));
+    			myActivity = new Intent(Intent.ACTION_VIEW,Uri.parse("http://maps.google.com/maps?0?q=1860+east+18th+street+cleveland+oh"));
     			startActivity(myActivity);
         	}
         });
